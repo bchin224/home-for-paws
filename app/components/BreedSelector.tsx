@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { fetchAvailableBreeds } from "../api/search/route";
 
-export default function Home() {
+export default function FetchBreeds() {
   const [breeds, setBreeds] = useState<string[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);

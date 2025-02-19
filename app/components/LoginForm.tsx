@@ -32,7 +32,7 @@ const LoginForm = () => {
         setMessage("Form submitted successfully!");
         setName("");
         setEmail("");
-        router.push("/home");
+        router.push("/dashboard");
       } else {
         setMessage("Error submitting form.");
       }
