@@ -12,7 +12,6 @@ export default function FetchBreeds() {
       try {
         const breeds = await fetchAvailableBreeds();
         setBreeds(breeds);
-        console.log("breeds: ", breeds);
       } catch (err) {
         setError(`Failed to fetch available dogs:  ${err}`);
       } finally {

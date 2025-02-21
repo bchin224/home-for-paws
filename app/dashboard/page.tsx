@@ -1,5 +1,6 @@
 "use client";
 import FetchBreeds from "../components/BreedSelector";
+import SearchDogs from "../components/SearchDogs";
 
 // import { useEffect, useState } from "react";
 // import { fetchAvailableBreeds } from "../api/search/route";
@@ -8,7 +9,8 @@ import FetchBreeds from "../components/BreedSelector";
 export default function Dashboard() {
   return (
     <div>
-      <FetchBreeds />
+      {/* <FetchBreeds /> */}
+      <SearchDogs />
     </div>
   );
 }
