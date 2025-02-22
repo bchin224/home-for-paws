@@ -10,9 +10,6 @@ export default async function Navigation() {
       <li>
         <Link href="/">Search</Link>
       </li>
-      <li>
-        <Link href="/">Account</Link>
-      </li>
     </>
   );
   return (

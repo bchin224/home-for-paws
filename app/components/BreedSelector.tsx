@@ -23,11 +23,11 @@ export default function FetchBreeds() {
   }, []);
 
   return (
-    <div className="p-4 max-w-md mx-auto border rounded-md shadow-md">
-      <h2 className="text-xl font-semibold mb-4">Available Dog Breeds</h2>
-
+    <div className="p-2 max-w-md mx-auto border rounded-md shadow-md">
       {loading && <p>Loading...</p>}
       {error && <p className="text-red-500">{error}</p>}
+
+      <label className="font-semibold pr-4 mb-4">Filter by Breeds</label>
 
       {!loading && !error && (
         <select className="space-y-3">
